@@ -9,10 +9,9 @@ https://github.com/GaoLanCode/Bridging-Search-Region-Interaction-with-Template-f
 
 
 ## Environment Installation
-conda create -n tbsi python=3.8
-echo "****************** Installing pytorch ******************"
-conda install pytorch==1.9.0 torchvision==0.10.0 torchaudio==0.9.0 cudatoolkit=10.2 -c pytorch
-pip install PyYAML  
+conda create -n tbsi python=3.8  
+conda install pytorch==1.9.0 torchvision==0.10.0 torchaudio==0.9.0 cudatoolkit=10.2 -c pytorch  
+pip install PyYAML    
 pip install easydict  
 pip install cython  
 pip install opencv-python  
